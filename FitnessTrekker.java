@@ -29,35 +29,65 @@ public class FitnessTrekker {
         printAccountInfo();
     }
 
-    public String getName() {return name; }
+    public String getName() {
+        return name;
+    }
 
-    public int getBirthDay() {return birthDay; }
+    public int getBirthDay() {
+        return birthDay;
+    }
 
-    public int getBirthMonth() {return birthMonth; }
+    public int getBirthMonth() {
+        return birthMonth;
+    }
 
-    public int getBirthYear() {return birthYear; }
+    public int getBirthYear() {
+        return birthYear;
+    }
 
-    public String getEmail() {return email; }
+    public String getEmail() {
+        return email;
+    }
 
-    public String getPhone() {return phone; }
+    public String getPhone() {
+        return phone;
+    }
 
-    public String getLastname() {return lastname; }
+    public String getLastname() {
+        return lastname;
+    }
 
-    public void setLastname(String lastname) {this.lastname = lastname; }
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
 
-    public double getWeight() {return weight; }
+    public double getWeight() {
+        return weight;
+    }
 
-    public void setWeight(double weight) {this.weight = weight; }
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
 
-    public String getPressure() {return pressure; }
+    public String getPressure() {
+        return pressure;
+    }
 
-    public void setPressure(String pressure) {this.pressure = pressure; }
+    public void setPressure(String pressure) {
+        this.pressure = pressure;
+    }
 
-    public int getSteps() {return steps; }
+    public int getSteps() {
+        return steps;
+    }
 
-    public void setSteps(int steps) {this.steps = steps; }
+    public void setSteps(int steps) {
+        this.steps = steps;
+    }
 
-    public int getAge() {return age; }
+    public int getAge() {
+        return age;
+    }
 
     public void printAccountInfo() {
         System.out.println("FitnessTrekker {" +
@@ -78,49 +108,49 @@ public class FitnessTrekker {
 
 }
 
-        class FitnessTrekkerRunner {
-            public static void main(String[] args) {
-                FitnessTrekker[] fitnessTrekkers = {
-                        new FitnessTrekker("Will",
-                                "Smith",
-                                25,
-                                9,
-                                1968,
-                                "w.smith@gmail.com",
-                                "2936729462846",
-                                82,
-                                "80",
-                                15000),
-                        new FitnessTrekker("Jackie",
-                                "Chan",
-                                13,
-                                7,
-                                1957,
-                                "j.chan@gmail.com",
-                                "18273981236",
-                                67,
-                                "92",
-                                20000),
-                        new FitnessTrekker("Jason",
-                                "Statham",
-                                15,
-                                5,
-                                1970,
-                                "j.statham@gmail.com",
-                                "981237129313",
-                                70,
-                                "94",
-                                50000),
-                        new FitnessTrekker("Daniel",
-                                "D.Lewis",
-                                7,
-                                2,
-                                1960,
-                                "d.dlewis@gmail.com",
-                                "91827381236123",
-                                80,
-                                "92",
-                                18000)};
-            }
+class FitnessTrekkerRunner {
+    public static void main(String[] args) {
+        FitnessTrekker[] fitnessTrekkers = {
+                new FitnessTrekker("Will",
+                        "Smith",
+                        25,
+                        9,
+                        1968,
+                        "w.smith@gmail.com",
+                        "2936729462846",
+                        82,
+                        "80",
+                        15000),
+                new FitnessTrekker("Jackie",
+                        "Chan",
+                        13,
+                        7,
+                        1957,
+                        "j.chan@gmail.com",
+                        "18273981236",
+                        67,
+                        "92",
+                        20000),
+                new FitnessTrekker("Jason",
+                        "Statham",
+                        15,
+                        5,
+                        1970,
+                        "j.statham@gmail.com",
+                        "981237129313",
+                        70,
+                        "94",
+                        50000),
+                new FitnessTrekker("Daniel",
+                        "D.Lewis",
+                        7,
+                        2,
+                        1960,
+                        "d.dlewis@gmail.com",
+                        "91827381236123",
+                        80,
+                        "92",
+                        18000)};
+    }
 
-        }
+}
